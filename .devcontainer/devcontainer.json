@@ -1,7 +1,7 @@
 {
   "name": "Universal - Latest",
   "image": "mcr.microsoft.com/devcontainers/universal:latest",
-  "postCreateCommand": "bash .devcontainer/postCreate.sh"
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
   "features": {
     "ghcr.io/davzucky/devcontainers-features-wolfi/python:1": {
       "installRuff": true,
